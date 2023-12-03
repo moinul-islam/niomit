@@ -366,15 +366,24 @@ td {
 }
 
 .card {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-.companyIcon {
-    width: 16px;
+.cardImg {
+    width: 100px;
 }
+
+.vertical-center {
+    height: 100%; 
+    padding-right: 10px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+  }
+
 
 
 
