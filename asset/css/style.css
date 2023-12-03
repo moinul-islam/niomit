@@ -194,7 +194,8 @@ iframe {
 }
 
 
-.actived {
+.actived,
+.colo {
     color: red;
 }
 
@@ -401,6 +402,13 @@ div.scrollmenu {
     padding: 14px; 
     text-decoration: none; 
   } 
+
+  div.scrollmenu a.act {      
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 25px;
+  }
 
   div.scrollmenu a:hover { 
     background-color: #777; 
