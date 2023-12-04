@@ -366,11 +366,21 @@ td {
     cursor: pointer
 }
 
-.card {
+/* .card {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
     padding-bottom: 0;
+} */
+
+.myCard {
+    border: 1px solid rgb(233, 233, 233);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.width100 {
+    width: 100%;
 }
 
 .cardImg {
