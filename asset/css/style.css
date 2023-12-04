@@ -44,6 +44,10 @@
     margin: 20px 15px;
 }
 
+.cardRow {
+    margin: 20px 1px;
+}
+
 .intro-sec i {
     font-size: 30px;
 }
@@ -353,7 +357,7 @@ td {
     width: 90px;
     height: 90px;
     border-radius: 100%;
-    margin-right: 30px
+    /* margin-right: 30px */
 }
 
 .pic {
@@ -379,9 +383,6 @@ td {
     border-radius: 5px;
 }
 
-.width100 {
-    width: 100%;
-}
 
 .cardImg {
     width: 100px;
@@ -428,10 +429,10 @@ div.scrollmenu {
     width: 90%;
  }
 
- 
+/*  
  .row {
-    --bs-gutter-x: 0;
- }
+    --bs-gutter-x: 10px;
+ } */
 
 
 
