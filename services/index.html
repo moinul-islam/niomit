@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" href="asset/icons/favicon.png" type="image/gif" sizes="16x16">
-    <title>NIOM IT - IT Services</title>
+    <link rel="icon" href="../asset/icons/favicon.png" type="image/gif" sizes="16x16">
+    <title>NIOM IT - Services</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
-    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="../../asset/css/style.css">
 </head>
 
 <body>
@@ -32,17 +32,6 @@
 <div id="myModal2" class="modal">
 
     <!-- Modal content 2 -->
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <p>Some text in the Modal..</p>
-    </div>
-
-</div>
-
-<!-- The Modal -->
-<div id="myModal3" class="modal">
-
-    <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
         <p>Some text in the Modal..</p>
@@ -81,7 +70,7 @@
 
 
 
-<!-- 
+
 <section id="top-section" class="myContainer">
 
     <div class="row">
@@ -107,7 +96,7 @@
         </div>
     </div>
 
-</section> -->
+</section>
 
 
 
@@ -122,7 +111,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top second-nav myContainer">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-            <img src="asset/img/logo/logo.png" alt="Niom IT Logo" class="logo">
+            <img src="../asset/img/logo/logo.png" alt="Niom IT Logo" class="logo">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -131,11 +120,11 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-                <a class="nav-link" href="index.html">Home</a>
-                <a class="nav-link" href="about.html">About</a>
-                <a class="nav-link" href="services.html">Services</a>
-                <a class="nav-link" href="post.html">Post</a>
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="../index.html">Home</a>
+                <a class="nav-link" href="../about.html">About</a>
+                <a class="nav-link active href="services">Services</a>
+                <a class="nav-link" href="../post">Post</a>
+                <a class="nav-link" href="../contact.html">Contact</a>
             </div>
         </div>
 
@@ -143,135 +132,120 @@
 </nav>
 
 
+<header id="header-slider" class="myContainer">
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../asset/img/cover/services.png" class="d-block w-100" alt="Home Cover">
+            </div>
+        </div>
+    </div>
+
+</header>
 
 
+    <section class="myContainer">
 
-
-<div class="myContainer">
-
-    <div class="scrollmenu"> 
-        <a href="services.html">&larr; Backpage</a> 
-        <a href="services-catagory.html">IT Courses & Training</a> 
-        <a href="services-catagory-two.html" class="act">IT Services</a> 
-        <a href="#about">Catagory</a> 
-        <a href="#support">Catagory</a> 
-        <a href="#blog">Catagory</a> 
-        <a href="#tools">Catagory</a>   
-        <a href="#base">Catagory</a> 
-        <a href="#custom">Catagory</a> 
-        <a href="#more">Catagory</a>
-      </div> 
-</div>
-
-
-
-
-
-
-
-
-
-<main class="myContainer">
-
-
-    <div class="cardRow">  
-
-        <div class="myCard">
-            <div class="row">
-                <div class="col-auto">
-                    <img src="asset/img/services/branding-and-digital-marketing.jpg" class="img-fluid cardImg" alt="">
-                </div>
-                <div class="col">
-                    <h3>Branding & Digital Marketing</h3>
-                    <div class="">
-                        <a href="#" class="card-link">
-                            <i class="fa fa-tag" aria-hidden="true"></i>
-                            5000
-                        </a>
-                        <a href="#" class="card-link">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            4.9 (300)
-                        </a>
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <a href="#" class="vertical-center">
-                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+        <div class="myRow">
+            <div class="row intro-sec">
+                <div class="col-md-4 col-sm-4 col-4">
+                    <a href="#catagory">
+                        <i class="fas fa-cubes"></i>
+                        <p><b>2</b> Catagory</p>
                     </a>
                 </div>
-            </div>            
-        </div>
-
-        <div class="myCard">
-            <div class="row">
-                <div class="col-auto">
-                    <img src="asset/img/services/website-and-ecommarce.jpg" class="img-fluid cardImg" alt="">
+                <div class="col-md-4 col-sm-4 col-4">
+                    <i class="fas fa-shopping-basket"></i>
+                    <p><b>6</b> Services</p>
                 </div>
-                <div class="col">
-                    <h3>Website eCommarce</h3>
-                    <div class="">
-                        <a href="#" class="card-link">
-                            <i class="fa fa-tag" aria-hidden="true"></i>
-                            10000
-                        </a>
-                        <a href="#" class="card-link">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            4.5 (700)
-                        </a>
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <a href="#" class="vertical-center">
-                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                <div class="col-md-4 col-sm-4 col-4">
+                    <a href="#review">
+                        <i class="fas fa-star"></i>
+                        <p><b>1500</b> Review</p>
                     </a>
                 </div>
-            </div>            
+            </div>
         </div>
 
+    </section>
 
-        <div class="myCard">
-            <div class="row">
-                <div class="col-auto">
-                    <img src="asset/img/services/software-and-app-development.jpg" class="img-fluid cardImg" alt="">
-                </div>
-                <div class="col">
-                    <h3>Software & App Development</h3>
-                    <div class="">
-                        <a href="#" class="card-link">
-                            <i class="fa fa-tag" aria-hidden="true"></i>
-                            15000
-                        </a>
-                        <a href="#" class="card-link">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            4.9 (1,000)
-                        </a>
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <a href="#" class="vertical-center">
-                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+
+
+
+    <section class="myContainer" id="catagory">
+
+        <h4 class="text-center"><b>2</b> Catagory</h4>
+
+        <div class="myRow">
+            <div class="row course-sec">
+                <div class="col-md-4 col-sm-4 col-4">
+                  <a href="services-catagory.html">
+                    <img src="../asset/img/courses/course.jpg" alt="">
+                    <p class="text-center">IT Courses</p>
                     </a>
                 </div>
-            </div>            
+                <div class="col-md-4 col-sm-4 col-4">
+                  <a href="services-catagory-two.html">
+                    <img src="../asset/img/services/service.png" alt="">
+                    <p class="text-center">IT Services</p>
+                    </a>
+                </div>
+                
+            </div>
+
         </div>
 
-</div>
+        <p class="seeMore">
+            <a href="">Load more Catagory &darr;</a>
+        </p>
 
-    
-    
-    <p class="seeMore">
-        <a href="">Load more &darr;</a>
-    </p>
 
-    <br>
-</main>
+    </section>
+
+
+    <section class="myContainer" id="review">
+
+        <h4 class="text-center">Review</h4>
+
+            
+  
+  
+        <div class="card text-center">
+          <div class="row d-flex">
+              <div class=""> <img class="profile-pic" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(15).webp"> </div>
+              <div class="d-flex flex-column">
+                  <h3 class="p-2 mb-0">Jenny Khan</h3>
+                  <div>
+                      <p class="text-left"><span class="text-muted">4.0</span> <span class="fa fa-star star-active ml-3"></span> <span class="fa fa-star star-active"></span> <span class="fa fa-star star-active"></span> <span class="fa fa-star star-active"></span> <span class="fa fa-star star-inactive"></span></p>
+                  </div>
+              </div>
+              <div class="ml-auto">
+                  <p class="text-muted pt-sm-3">9 Sept 2023</p>
+              </div>
+          </div>
+          <div class="row text-left p-2">
+              
+              <p class="content">If you really enjoy spending your vacation 'on water' or would like to try something new and exciting for the first time.</p>
+          </div>
+          <!-- <div class="row text-left"> <img class="pic" src="https://i.imgur.com/kjcZcfv.jpg"> <img class="pic" src="https://i.imgur.com/SjBwAgs.jpg"> <img class="pic" src="https://i.imgur.com/IgHpsBh.jpg"> </div> -->
+          <div class="row text-left mt-4">
+              <div class="like col-6 vote"> <img src="https://i.imgur.com/mHSQOaX.png"><span class="blue-text pl-2">20</span> </div>
+              <div class="unlike col-6 vote"> <img src="https://i.imgur.com/bFBO3J7.png"><span class="text-muted pl-2">4</span> </div>
+          </div>
+        </div>
+   
+
+        
+    </section> 
+ 
 
 
    
     <nav class="navbar navbar-expand-lg navbar-light bg-light myContainer">
       <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-              <img src="asset/img/logo/logo.png" alt="Niom IT Logo" class="logo">
+              <img src="../asset/img/logo/logo.png" alt="Niom IT Logo" class="logo">
           </a>
 
           <div class="justify-content-end">
@@ -345,9 +319,7 @@
       </div>
   </footer>
 
-  
 
-  <script src="asset/js/index.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
