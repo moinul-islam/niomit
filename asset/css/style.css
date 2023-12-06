@@ -9,9 +9,13 @@
     margin: 0 auto;
 }
 
-.second-nav{
+/* .second-nav{
     top: 34px;
-}
+} 
+
+<div class="d-flex justify-content-around navbar-light bg-dark sticky-top first-nav btm-nav">
+
+*/
 
 .logo {
     height: 22px;
@@ -424,11 +428,11 @@ div.scrollmenu {
   }
 
   div.scrollmenu a.act {
-    background-color: #f2f2f2;
+    background-color: #dfdcdc;
   }
 
   div.scrollmenu a:hover { 
-    background-color: #f2f2f2; 
+    background-color: #dfdcdc; 
   } 
 
  .textare {
